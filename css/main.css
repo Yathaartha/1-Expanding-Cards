@@ -6,4 +6,72 @@
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.4;
-  background-color: #0096c7; }
+  background-color: #48cae4; }
+
+#page-title {
+  margin-top: 2rem;
+  padding-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center; }
+  #page-title h1 {
+    width: fit-content;
+    font-size: 4rem;
+    border-bottom: solid 1px #fff; }
+    #page-title h1 span {
+      color: #fff; }
+
+ul {
+  list-style: none; }
+
+#content .container {
+  max-width: 900px;
+  margin: 2rem auto;
+  border: 2px #000 solid;
+  border-radius: 7px;
+  background-color: #ade8f4; }
+  #content .container .list-items h3 {
+    padding: 1.5rem 1.5rem;
+    text-align: center;
+    font-size: 2rem; }
+  #content .container .list-items div {
+    width: 100%;
+    font-size: 2rem;
+    background-color: #fff;
+    cursor: pointer;
+    z-index: 0;
+    text-align: center;
+    border-top: #000 solid 1px;
+    margin: 0; }
+  #content .container .list-items div:hover {
+    background-color: #ade8f4; }
+  #content .container .list-items p {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-top: 1px solid #000; }
+    #content .container .list-items p pre {
+      display: inherit;
+      background-color: inherit; }
+
+.invisible {
+  display: none; }
+
+.visible {
+  display: initial; }
+
+#main-footer {
+  background: #03045e;
+  color: #fff;
+  height: 5rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100vw; }
+  #main-footer .footer-content {
+    height: 5rem;
+    background-color: #03045e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; }
